@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.ghararemon.app'
+    namespace 'com.gharar.emon'
     compileSdk 35
 
     defaultConfig {
-        applicationId 'com.ghararemon.app'
+        applicationId 'com.gharar.emon'
         minSdk 23
         targetSdk 35
         versionCode 1

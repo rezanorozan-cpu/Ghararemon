@@ -1,0 +1,23 @@
+package com.gharar.emon;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.graphics.Color;
+import android.view.Gravity;
+import android.widget.TextView;
+
+public class MainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        TextView text = new TextView(this);
+        text.setText("قرارمون ❤️");
+        text.setTextSize(30);
+        text.setTextColor(Color.WHITE);
+        text.setGravity(Gravity.CENTER);
+
+        setContentView(text);
+    }
+}
